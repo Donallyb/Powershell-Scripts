@@ -9,7 +9,7 @@ Where to Find the Site24x7 Device Key for your account.
 -------------------------------------
 1. Login to your Sites24x7 Account
 2. Go to Admin -> Developer -> Device Key -> Select "Show Device Key"
-3. On line 38 in the script replace <Your-Device-Key-Here> with the Device Key
+3. On line 38 in the script replace "Your-Device-Key-Here" with the Device Key of your account
 
 Usage Examples - Installing Site24x7 agent on Multiple Servers
 -------------------------------------
