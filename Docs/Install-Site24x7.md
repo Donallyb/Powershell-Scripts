@@ -3,7 +3,7 @@ Install Site24x7 Agent Silently
 
 **The script will download the latest version of the Site24x7 agent for Windows Server and install it silently on the server and associate it with your Site24x7 account using the Device Key that belongs to your account.** 
 
-**Script can detect if Site24x7 is already installed on a server and will stop the script, other wise it will proceed witht he install. Once the Site24x7 agent is complete it will clean-up all the set-up files.**
+**Script can detect if Site24x7 is already installed on a server and will stop the script, otherwise, it will proceed with the install. Once the Site24x7 agent install is complete it will clean-up all the set-up files.**
 
 Where to Find the Site24x7 Device Key for your account.
 -------------------------------------
