@@ -18,12 +18,12 @@ Scripts for Monitoring Agents
 | ---------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
 | [Install-Site24x7.ps1](Install-Site24x7/Install-Site24x7.ps1)           | Install Site24x7 Agent Silently. [Read more...](Docs/Install-Site24x7.md)                  |
 
-Scripts for Checking Server Reboot Status
+Script for Checking Server Reboot Status
 -----------------------------------------
 
 | Script                                               | Description                                                                                     |
 | ---------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
-| [Check-ServerReboot-Status.ps1](Check-ServerReboot-Status/Check-ServerReboot-Status.ps1)           | Verify if a Windows Server is a Reboot State. [Read more...](Docs/Check-ServerReboot-Status.md)                  |
+| [Check-ServerReboot-Status.ps1](Check-ServerReboot-Status/Check-ServerReboot-Status.ps1)           | Verify if a Windows Server is in a Reboot State. [Read more...](Docs/Check-ServerReboot-Status.md)                  |
 
 Feedback
 --------
