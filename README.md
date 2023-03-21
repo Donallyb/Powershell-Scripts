@@ -26,6 +26,13 @@ Script for Checking Server Reboot Status
 | ---------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
 | [Check-ServerReboot-Status.ps1](Check-ServerReboot-Status/Check-ServerReboot-Status.ps1)           | Verify if a Windows Server is in a Reboot State. [Read more...](Docs/Check-ServerReboot-Status.md)                  |
 
+Script for Performing RDS Farm Maintenance
+-----------------------------------------
+
+| Script                                               | Description                                                                                     |
+| ---------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
+| [RDS-maintenance.ps1](RDS-Maintenance/RDS_Maintenance.ps1)           | Perfrom Maintenace on a RDS Server Farm. [Read more...](Docs/RDS-Maintenace.md)                  |
+
 Feedback
 --------
 Send your email feedback to: donalbolger [at] gmail [dot] com
