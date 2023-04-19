@@ -18,6 +18,7 @@ Scripts for Windows Server Maintenance
 | ---------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
 | [Check-LatestInstalledCU.ps1](Server-Maintenance/Check-LatestInstalledCU.ps1)           | Check Latest installed CU on a Windows Server. [Read more...](Docs/Check-LatestInstalledCU.md)                  |
 | [Check-ServerReboot-Status.ps1](Server-Maintenance/Check-ServerReboot-Status.ps1)           | Verify if a Windows Server is in a Reboot State. [Read more...](Docs/Check-ServerReboot-Status.md)                  |
+| [ScheduledReboot.ps1](Server-Maintenance/ScheduledReboot.ps1)           | Easily schedule a Windows server Reboot time [Read more...](Docs/ScheduledReboot.md)                  |
 
 Scripts for Monitoring Agents
 -----------------------------
