@@ -26,5 +26,3 @@ Write-Host $result
 ```
 
 Replace SERVER_NAME_HERE with the name of the server you want to check. You may need to run this command with administrative privileges on the target server.
-
-Note that you can customize the output message by modifying the Write-Host commands in the script.
