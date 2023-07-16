@@ -61,7 +61,7 @@ $rebootTime = '22:00' # 10 PM
 ```
 Additional information
 -------------------------------------
-his script uses the shutdown.exe command with the following options:
+This script uses the shutdown.exe command with the following options:
 
 /r: Full shutdown and restart
 /t: Time-out period before shutdown in seconds
