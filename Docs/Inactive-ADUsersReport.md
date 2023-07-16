@@ -6,16 +6,16 @@ This PowerShell script is designed to identify inactive users in your Active Dir
 How to use the script
 -------------------------------------
 
-*Imports Active Directory Module.
-*Allows defining inactivity based on a specific number of days.
-*Permits the specification of multiple Organizational Units (OUs) to search within.
-*Creates a list of inactive users including:
-    *Username
-    *Email Address
-    *Manager Name
-    *Manager Email
-    *Number of Inactive Days
-*Exports the data to a CSV file.
+* Imports Active Directory Module.
+* Allows defining inactivity based on a specific number of days.
+* Permits the specification of multiple Organizational Units (OUs) to search within.
+* Creates a list of inactive users including:
+    * Username
+    * Email Address
+    * Manager Name
+    * Manager Email
+    * Number of Inactive Days
+* Exports the data to a CSV file.
 
 
 How to use the script
@@ -52,6 +52,6 @@ The resulting CSV file will be named something like "Inactive-ADUsers-16-07-2023
 
 Requirements
 -------------------------------------
-*PowerShell 3.0 or later.
-*Active Directory PowerShell Module.
-*Necessary permissions to access Active Directory and read user properties.
+* PowerShell 3.0 or later.
+* Active Directory PowerShell Module.
+* Necessary permissions to access Active Directory and read user properties.
