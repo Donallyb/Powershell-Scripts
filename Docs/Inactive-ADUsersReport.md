@@ -1,4 +1,4 @@
-Scheduled Reboot PowerShell Script
+Inactive AD Users Report
 -------------------------------------
 
 This PowerShell script is designed to identify inactive users in your Active Directory environment. The script will scan specific Organizational Units (OUs) and find users who have not logged in within a specified number of days. The results will be exported to a CSV file for further analysis.
