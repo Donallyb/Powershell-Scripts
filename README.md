@@ -11,7 +11,7 @@ Scripts for Azure AD
 | [Sync-ADServiceAccWithAzureADPassPolicy.ps1](AzureAD/Sync-ADServiceAccWithAzureADPassPolicy.ps1)           | This script aligns on-premise and Azure AD service account password policies, preventing potential discrepancies. [Read more...](Docs/Sync-ADServiceAccWithAzureADPassPolicy.md)                  |
 
 Scripts for Active Directory
------------------------------s
+-----------------------------
 
 | Script                                               | Description                                                                                     |
 | ---------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
