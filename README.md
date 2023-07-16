@@ -10,6 +10,7 @@ Scripts for Active Directory
 | ---------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
 | [Add_Remove_Users_From_Active_Directory_Group.ps1](ActiveDirectory/Add_Remove_Users_From_Active_Directory_Group.ps1)           | Automate AD Group Membership. [Read more...](Docs/Add_Remove_Users_From_Active_Directory_Group.md)                  |
 | [Count-ADObjects.ps1](ActiveDirectory/Count-ADObjects.ps1)           | Get object count of your AD environment. [Read more...](Docs/Count-ADObjects.md)                  |
+| [Inactive-ADUsersReport.ps1](ActiveDirectory/Inactive-ADUsersReport.ps1)           | Generate a Report of Inactive Users in your AD Environment [Read more...](Docs/Inactive-ADUsersReport.md)                  |
 
 Scripts for Windows Server Maintenance
 -----------------------------
