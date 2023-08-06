@@ -53,7 +53,7 @@ Start-Process msiexec -Wait -ArgumentList "/I `"$CheckMKAgentLocation`" /qn WIXU
 # Pause for 60 seconds to let the installer finish
 Start-Sleep -Seconds 60
 
-# Call the batch file and run CMd as an Administrator in order to register the agent
+# Call the batch file and run CMD as an Administrator in order to register the agent
 Start-Process -FilePath "cmd.exe" -ArgumentList "/c $batchFileLocation $hostname $checkmkUsername $checkmkPassword" -Verb RunAs
 
 # Wait for a few seconds for the process to complete

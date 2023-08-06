@@ -5,17 +5,17 @@ This repository provides a PowerShell script and accompanying batch file that fa
 
 Features
 -------------------------------------
-Secure collection of Checkmk credentials.
-Silent installation of the Checkmk agent from a specified MSI.
-Registration of the agent using an external batch file (commands.bat).
-Automatic handling of any prompts during the installation and registration process.
-Post-installation verification to ensure successful agent installation.
+* Secure collection of Checkmk credentials.
+* Silent installation of the Checkmk agent from a specified MSI.
+* Registration of the agent using an external batch file (commands.bat).
+* Automatic handling of any prompts during the installation and registration process.
+* Post-installation verification to ensure successful agent installation.
 
 Pre-requisites
 -------------------------------------
-A PowerShell session opened with Run as Administrator privileges.
-The Checkmk agent MSI installer should be placed in a known directory.
-Ensure the commands.bat file is in the same directory as the installation script.
+* A PowerShell session opened with Run as Administrator privileges.
+* The Checkmk agent MSI installer should be placed in a known directory.
+* Ensure the commands.bat file is in the same directory as the installation script.
 
 Usage
 -------------------------------------
@@ -39,6 +39,35 @@ The PowerShell script starts by gathering your Checkmk credentials in a secure m
 It then initiates the silent installation of the Checkmk agent using the provided MSI installer.
 After installation, it calls the accompanying batch file (commands.bat) to register the agent. This registration is done via a command prompt running with administrative privileges.
 The script concludes by verifying the successful installation of the agent and provides feedback in the console.
+
+Console Window Management and Agent Registration
+-------------------------------------
+The portion of the script from line 62 deals with managing the console window and initiating the Checkmk agent registration:
+
+1. Console Window Type Definition:
+
+* The script first defines a .NET type to interact with the User32.dll. This allows for direct control over the console window.
+* The ShowWindow function, imported from User32.dll, is used to control the visibility and foreground status of the console window.
+
+2. Fetching Current Console Handle:
+
+* The script retrieves the window handle of the currently executing process (PowerShell console). This handle is essential for directly manipulating the console window.
+
+3. Bringing Console Window to Foreground:
+
+* Using the previously defined type, the script brings the PowerShell console window to the forefront. 
+* This ensures that any subsequent input or action happens in the active, foremost window.
+
+4. Agent Registration Process:
+
+* The script starts the agent registration process using the Checkmk agent's executable (cmk-agent-ctl.exe). 
+* The necessary arguments for registration, such as hostname, server, site, and user credentials, are provided.
+* After initiating the registration process, the script waits briefly, allowing the process to commence and display potential prompts or messages.
+
+5. Automatic Confirmation:
+
+* The script uses the SendKeys method to send a 'Y' key press, followed by the ENTER key, to the active window. 
+* This automates the confirmation process, which might arise during the agent registration, thus streamlining the setup.
 
 Important Note
 -------------------------------------
