@@ -35,6 +35,7 @@ Scripts for Monitoring Agents
 | Script                                               | Description                                                                                     |
 | ---------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
 | [Install-Site24x7.ps1](Install-Site24x7/Install-Site24x7.ps1)           | Install Site24x7 Agent Silently. [Read more...](Docs/Install-Site24x7.md)                  |
+| [Check-MK-Install.ps1](Check-MK/Check-MK-Install.ps1)           | IEases the Install of the Check-MK Agent on Windows Servers. [Read more...](Docs/Check-MK-Install.md)                  |
 
 Script for Performing RDS Farm Maintenance
 -----------------------------------------
